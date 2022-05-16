@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{f3708bfb-a336-4426-9539-8c2ddb8406b6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Timer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Block.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Enemy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AnimatedObject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\level.7.quest.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FactoryLibrary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ObjectFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Bullet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Powerup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Assets\data\animation.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Assets\data\background.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Assets\data\EnemyAnimations.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="Assets\data\noAnimation.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\images\block.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Assets\images\player_sheet.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\AnimatedObject.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Block.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Bullet.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Enemy.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\engine.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\FactoryLibrary.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GUI.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Object.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ObjectFactory.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Player.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Texture.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Timer.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\IShootStrategy.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ShootingStrategies.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Powerup.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
